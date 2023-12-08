@@ -1,0 +1,18 @@
+# text-file containing metadata to be sourced into the build_annotation.R script
+
+version <- "0.1"
+maintainer <- "Some One <so@someplace.org>"
+author <- "Some One <so@someplace.org>"
+tax_id <- "59729"
+genus <- "Taeniopygia"
+species <- "guttata"
+
+# notes:
+# * the author and maintainer do not need to be identical
+# * make sure the e-mail adress is within ( <> )
+# * if the created package is not publicized, the e-mail adress need not be valid
+# * do not change the left side of the arrows ( <- ) and always put the text behind in ( "" )
+# * best practice: do not modify this file, but make a copy to modify instead
+#
+# methods and ideas inspired by: 
+# https://bioconductor.org/packages/devel/bioc/vignettes/AnnotationForge/inst/doc/MakingNewOrganismPackages.html
